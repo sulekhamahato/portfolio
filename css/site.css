@@ -133,6 +133,9 @@ section#pf-content-jumbotron .jumbotron img {
 
 /**-- #4: Media Queries --**/
 @media (max-width: 480px) {
+    header nav.pf-header-nav .navbar-header {
+        display: none;
+    }
     header nav.pf-header-nav .pf-profile-info {
         margin: 0 auto;
         text-align: center;
